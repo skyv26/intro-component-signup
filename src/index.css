@@ -13,7 +13,6 @@ html {
 }
 
 body {
-  max-width: 2560px;
   max-width: 1440px;
   min-height: 100%;
   background-color: var(--red);
