@@ -1,0 +1,112 @@
+.HeroSection {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  gap: 1.6rem;
+  margin-top: 5rem;
+}
+
+.HeroSection h1 {
+  font-size: 2rem;
+}
+
+.HeroSection p {
+  font-size: 1.25rem;
+}
+
+@media (min-width: 20em) {
+  .HeroSection h1 {
+    font-size: 2.25rem;
+  }
+
+  .HeroSection p {
+    font-size: 1.4rem;
+  }
+}
+
+@media (min-width: 22em) {
+  .HeroSection h1 {
+    font-size: 2.6rem;
+  }
+
+  .HeroSection p {
+    font-size: 1.6rem;
+  }
+}
+
+@media (min-width: 23em) {
+  .HeroSection {
+    margin-top: 7rem;
+  }
+  .HeroSection h1 {
+    font-size: 2.5rem;
+  }
+
+  .HeroSection p {
+    font-size: 1.75rem;
+  }
+}
+
+@media (min-width: 25em) {
+  .HeroSection {
+    margin-top: 7rem;
+  }
+  .HeroSection h1 {
+    font-size: 3rem;
+  }
+
+  .HeroSection p {
+    font-size: 1.9rem;
+  }
+}
+
+@media (min-width: 64em) {
+  .HeroSection {
+    margin-top: 0;
+    justify-content: center;
+    text-align: left;
+  }
+  .HeroSection h1 {
+    font-size: 3.8rem;
+    line-height: 1.2;
+  }
+
+  .HeroSection p {
+    font-size: 1.25rem;
+    line-height: 1.6;
+  }
+}
+
+@media (min-width: 85em) {
+  .HeroSection {
+    margin-top: 0;
+    justify-content: center;
+    text-align: left;
+  }
+  .HeroSection h1 {
+    font-size: 4.9rem;
+    line-height: 1.2;
+  }
+
+  .HeroSection p {
+    font-size: 1.6rem;
+    line-height: 1.6;
+  }
+}
+@media (min-width: 90em) {
+  .HeroSection {
+    margin-top: 0;
+    justify-content: center;
+    text-align: left;
+  }
+  .HeroSection h1 {
+    font-size: 4.9rem;
+    line-height: 1.2;
+  }
+
+  .HeroSection p {
+    font-size: 1.6rem;
+    line-height: 1.6;
+  }
+}

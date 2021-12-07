@@ -1,0 +1,12 @@
+.Display {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+@media (min-width: 64em){
+  .Display {
+    flex-direction: row;
+    gap: 5rem;
+  } 
+}
